@@ -1,3 +1,5 @@
+import { SplashScreen } from "./components/SplashScreen";
+
 export default function () {
-  return <h1>hello</h1>;
+  return <SplashScreen />;
 }
