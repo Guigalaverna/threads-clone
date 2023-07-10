@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { SplashScreen } from "./components/SplashScreen";
 import { Header } from "./components/Header";
 
@@ -11,11 +11,17 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { BsFillPersonFill } from 'react-icons/bs'
 
 export default function() {
-  const [showingSplashScreen, setShowingSplashScreen] = useState(false);
+  // const [showingSplashScreen, setShowingSplashScreen] = useState(true);
 
-  if (showingSplashScreen) {
-    return <SplashScreen />;
-  }
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowingSplashScreen(false)
+  //   }, 3000)
+  // }, [])
+  //
+  // if (showingSplashScreen) {
+  //   return <SplashScreen />;
+  // }
 
   return (
     <main className="w-full h-full flex flex-col px-3 text-base relative">

@@ -3,7 +3,8 @@ import MetaLogo from "../../assets/meta-logo.svg";
 
 export function SplashScreen() {
   return (
-    <main className="w-full h-screen flex flex-col items-center justify-around">
+    <main className="w-full h-screen flex flex-col items-center justify-around animate-[fade_3s]">
+
       <span></span>
       <img src={ThreadsLogo} alt="Logo do Threads" className="w-20" />
 
