@@ -1,4 +1,4 @@
-import ThreadsLogo from "../../assets/threads-logo.png";
+import ThreadsLogo from "../../assets/threads-logo-gradient.png";
 import MetaLogo from "../../assets/meta-logo.svg";
 
 export function SplashScreen() {

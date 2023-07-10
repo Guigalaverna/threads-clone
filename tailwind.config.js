@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         sans: "Poppins",
       },
+      fontSize: {
+        base: '14px'
+      }
     },
   },
   plugins: [],
