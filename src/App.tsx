@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import { SplashScreen } from "./components/SplashScreen";
 import { Header } from "./components/Header";
 
 import { Post } from "./components/Post";
